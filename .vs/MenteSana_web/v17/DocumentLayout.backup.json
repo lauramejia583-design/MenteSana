@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\users\\User\\Desktop\\MenteSana_web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\views\\estudiantes\\registro_emocion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\views\\estudiantes\\registro_emocion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\views\\citas\\agendarcita.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\views\\citas\\agendarcita.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\controllers\\accesocontrolles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\controllers\\accesocontrolles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\wwwroot\\js\\agendarcita.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\wwwroot\\js\\agendarcita.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\helpers\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\helpers\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\wwwroot\\css\\estiloinicio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\wwwroot\\css\\estiloinicio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\wwwroot\\js\\registroemocion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\wwwroot\\js\\registroemocion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\models\\estado_emociomal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\models\\estado_emociomal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|d:\\users\\user\\desktop\\mentesana_web\\mentesana_web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6BEB327E-5541-4A7E-B028-61B4C5DAB223}|MenteSana_web\\MenteSana_web.csproj|solutionrelative:mentesana_web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EstudiantesController.cs",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Controllers\\EstudiantesController.cs",
+              "RelativeDocumentMoniker": "MenteSana_web\\Controllers\\EstudiantesController.cs",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Controllers\\EstudiantesController.cs",
+              "RelativeToolTip": "MenteSana_web\\Controllers\\EstudiantesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:39:20.521Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registro_emocion.cshtml",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Views\\Estudiantes\\Registro_emocion.cshtml",
+              "RelativeDocumentMoniker": "MenteSana_web\\Views\\Estudiantes\\Registro_emocion.cshtml",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Views\\Estudiantes\\Registro_emocion.cshtml",
+              "RelativeToolTip": "MenteSana_web\\Views\\Estudiantes\\Registro_emocion.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwPSwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T03:11:38.004Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "MenteSana_web\\Controllers\\CitasController.cs",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "MenteSana_web\\Controllers\\CitasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T00:03:29.961Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SessionHelper.cs",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Helpers\\SessionHelper.cs",
+              "RelativeDocumentMoniker": "MenteSana_web\\Helpers\\SessionHelper.cs",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Helpers\\SessionHelper.cs",
+              "RelativeToolTip": "MenteSana_web\\Helpers\\SessionHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T16:49:54.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "agendarCita.js",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\wwwroot\\js\\agendarCita.js",
+              "RelativeDocumentMoniker": "MenteSana_web\\wwwroot\\js\\agendarCita.js",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\wwwroot\\js\\agendarCita.js",
+              "RelativeToolTip": "MenteSana_web\\wwwroot\\js\\agendarCita.js",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-20T00:12:03.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgendarCita.cshtml",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Views\\Citas\\AgendarCita.cshtml",
+              "RelativeDocumentMoniker": "MenteSana_web\\Views\\Citas\\AgendarCita.cshtml",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Views\\Citas\\AgendarCita.cshtml",
+              "RelativeToolTip": "MenteSana_web\\Views\\Citas\\AgendarCita.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAcwFcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T00:09:41.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Models\\Cita.cs",
+              "RelativeDocumentMoniker": "MenteSana_web\\Models\\Cita.cs",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Models\\Cita.cs",
+              "RelativeToolTip": "MenteSana_web\\Models\\Cita.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T04:52:38.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccesoControlles.cs",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Controllers\\AccesoControlles.cs",
+              "RelativeDocumentMoniker": "MenteSana_web\\Controllers\\AccesoControlles.cs",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Controllers\\AccesoControlles.cs",
+              "RelativeToolTip": "MenteSana_web\\Controllers\\AccesoControlles.cs",
+              "ViewState": "AgIAADMAAACAmZmZmZkTwD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T15:55:50.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Program.cs",
+              "RelativeDocumentMoniker": "MenteSana_web\\Program.cs",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Program.cs",
+              "RelativeToolTip": "MenteSana_web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T15:54:59.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegistroEmocion.js",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\wwwroot\\js\\RegistroEmocion.js",
+              "RelativeDocumentMoniker": "MenteSana_web\\wwwroot\\js\\RegistroEmocion.js",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\wwwroot\\js\\RegistroEmocion.js",
+              "RelativeToolTip": "MenteSana_web\\wwwroot\\js\\RegistroEmocion.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-17T03:20:25.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "MenteSana_web\\Models\\Persona.cs",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Models\\Persona.cs",
+              "RelativeToolTip": "MenteSana_web\\Models\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:07:16.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Views\\Acceso\\Login.cshtml",
+              "RelativeDocumentMoniker": "MenteSana_web\\Views\\Acceso\\Login.cshtml",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Views\\Acceso\\Login.cshtml",
+              "RelativeToolTip": "MenteSana_web\\Views\\Acceso\\Login.cshtml",
+              "ViewState": "AgIAACoAAABAZ2ZmZmYkwFQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T16:45:47.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Estado_Emociomal.cs",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Models\\Estado_Emociomal.cs",
+              "RelativeDocumentMoniker": "MenteSana_web\\Models\\Estado_Emociomal.cs",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\Models\\Estado_Emociomal.cs",
+              "RelativeToolTip": "MenteSana_web\\Models\\Estado_Emociomal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:34:27.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "MenteSana_web\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "MenteSana_web\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-14T16:54:23.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EstiloInicio.css",
+              "DocumentMoniker": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\wwwroot\\css\\EstiloInicio.css",
+              "RelativeDocumentMoniker": "MenteSana_web\\wwwroot\\css\\EstiloInicio.css",
+              "ToolTip": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\wwwroot\\css\\EstiloInicio.css",
+              "RelativeToolTip": "MenteSana_web\\wwwroot\\css\\EstiloInicio.css",
+              "ViewState": "AgIAACAAAAAANDMzMzMrwCcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-14T16:47:52.425Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+﻿
+@{
+    ViewData["Title"] = "AgendarCita";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mente Sana</title>
+
+    <link rel="icon" type="image/png" href="~/img/menteSana-logo2.png" />
+    <link rel="stylesheet" href="~/css/EstiloInicio.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light d-flex flex-column min-vh-100">
+
+    <!-- HEADER -->
+    <header class="py-3 border-bottom">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap">
+
+            <img src="~/IMG/menteSana-logo1.png" class="logo-header" alt="Mente Sana">
+
+            <h1 class="h5 fw-bold text-center flex-fill mb-0">MENTE SANA</h1>
+
+            <div class="d-flex align-items-center" style="gap: 80px;">
+                <img src="~/IMG/pascualBravo-logo.png" class="logo-header" alt="Pascual Bravo">
+
+                <div class="dropdown">
+                    <img src="~/IMG/11.png" class="profile-img dropdown-toggle" id="profileDropdown"
+                         data-bs-toggle="dropdown" aria-expanded="false" alt="Perfil">
+
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                        <li><a class="dropdown-item" href="/Estudiantes/Registros">Ver registros</a></li>
+                        <li><a class="dropdown-item" href="/Estudiantes/Perfil">Perfil</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <a class="dropdown-item" asp-controller="Acceso" asp-action="CerrarSesion">
+                                Cerrar sesión
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="container my-5 flex-fill">
+
+        <section class="mb-4 text-center">
+            <h2 class="fw-semibold mb-2">Agendar cita con Bienestar</h2>
+            <p class="text-muted">Selecciona un profesional y programa tu cita</p>
+        </section>
+
+        <section class="card shadow-sm border-0 p-4 mx-auto" style="max-width: 600px;">
+            <form asp-controller="Citas" asp-action="AgendarCita" method="post" id="citaForm">
+
+                <!-- PSICÓLOGO -->
+                <div class="mb-3">
+                    <label class="form-label">Profesional de Bienestar</label>
+                    <select id="psicologo" name="Id_Psicologo" class="form-select" required>
+                        <option value="">Selecciona un profesional</option>
+
+                        @foreach (var p in ViewBag.Psicologos)
+                        {
+                            <option value="@p.id_persona">@p.nombre @p.apellidos</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="row">
+
+                    <!-- FECHA -->
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Fecha</label>
+                        <input type="date" id="fecha" name="Fecha" class="form-control" required />
+                    </div>
+                    @if (ViewBag.mensaje !=null)
+                    {
+                        <div class="alert alert-info">
+                            @ViewBag.mensaje
+                        </div>
+                    }
+
+                    <!-- HORA -->
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Hora</label>
+                        <select id="hora" name="Hora" class="form-select" required>
+                            <option value="">Selecciona una hora</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <!-- MOTIVO -->
+                <div class="mb-3">
+                    <label class="form-label">Motivo (opcional)</label>
+                    <textarea id="motivo" name="Motivo" class="form-control" rows="3"
+                              placeholder="Describe brevemente el motivo de tu cita..."></textarea>
+                </div>
+
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-primary w-50">Agendar</button>
+                    <button type="reset" class="btn btn-outline-secondary w-50">Limpiar</button>
+                </div>
+
+            </form>
+        </section>
+
+        <div class="text-center mt-4">
+            <a asp-controller="Estudiantes" asp-action="Home" class="text-decoration-none small text-primary">← Volver al inicio</a>
+        </div>
+
+    </main>
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/agendarCita.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+

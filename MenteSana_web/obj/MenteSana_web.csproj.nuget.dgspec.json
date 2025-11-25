@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\MenteSana_web.csproj": {}
+    "D:\\users\\User\\Documents\\Proyectos\\MenteSana_web\\MenteSana_web\\MenteSana_web.csproj": {}
   },
   "projects": {
-    "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\MenteSana_web.csproj": {
+    "D:\\users\\User\\Documents\\Proyectos\\MenteSana_web\\MenteSana_web\\MenteSana_web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\MenteSana_web.csproj",
+        "projectUniqueName": "D:\\users\\User\\Documents\\Proyectos\\MenteSana_web\\MenteSana_web\\MenteSana_web.csproj",
         "projectName": "MenteSana_web",
-        "projectPath": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\MenteSana_web.csproj",
+        "projectPath": "D:\\users\\User\\Documents\\Proyectos\\MenteSana_web\\MenteSana_web\\MenteSana_web.csproj",
         "packagesPath": "D:\\users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\obj\\",
+        "outputPath": "D:\\users\\User\\Documents\\Proyectos\\MenteSana_web\\MenteSana_web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

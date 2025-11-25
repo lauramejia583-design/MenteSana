@@ -1,5 +1,4 @@
-﻿using AspNetCoreGeneratedDocument;
-using MenteSana_web.Models;
+﻿using MenteSana_web.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewEngines;
@@ -19,7 +18,7 @@ namespace MenteSana_web.Controllers
 {
     public class CitasController : Controller
     {
-        static string conexion = "Data Source=DESKTOP-FS43UDE;Initial Catalog=DBMenteSana2; Integrated Security=True; TrustServerCertificate=True";
+        static string conexion = "Data Source=DESKTOP-RTLL7R5;Initial Catalog=DBMenteSana2; Integrated Security=True; TrustServerCertificate=True";
         public IActionResult Index()
         {
             return View();
@@ -68,13 +67,14 @@ namespace MenteSana_web.Controllers
                 cmd.Parameters.AddWithValue("@id_psicologo", model.Id_Psicologo);
                 cmd.Parameters.AddWithValue("@fecha", model.Fecha);
                 cmd.Parameters.AddWithValue("@hora", model.Hora);
-                cmd.Parameters.AddWithValue("@motivo", model.motivo);
-                
+                cmd.Parameters.AddWithValue("@motivo", (object)model.motivo ?? DBNull.Value);
+
                 try
                 {
                     cn.Open();
                     cmd.ExecuteNonQuery();
-                } catch (SqlException ex)
+                }
+                catch (SqlException ex)
                 {
                     ViewBag.mensaje = "Esta fecha no está disponible";
                 }
@@ -85,4 +85,3 @@ namespace MenteSana_web.Controllers
         }
     }
 }
-

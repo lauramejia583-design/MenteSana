@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G3rMff4GHtA=",
+  "dgSpecHash": "+zm8pP9Kn4w=",
   "success": true,
-  "projectFilePath": "D:\\users\\User\\Desktop\\MenteSana_web\\MenteSana_web\\MenteSana_web.csproj",
+  "projectFilePath": "D:\\users\\User\\Documents\\Proyectos\\MenteSana_web\\MenteSana_web\\MenteSana_web.csproj",
   "expectedPackageFiles": [
     "D:\\users\\User\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "D:\\users\\User\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

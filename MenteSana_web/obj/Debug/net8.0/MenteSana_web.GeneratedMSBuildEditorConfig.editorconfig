@@ -17,53 +17,61 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MenteSana_web
 build_property.RootNamespace = MenteSana_web
-build_property.ProjectDir = D:\users\User\Desktop\MenteSana_web\MenteSana_web\
+build_property.ProjectDir = D:\users\User\Documents\Proyectos\MenteSana_web\MenteSana_web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\users\User\Desktop\MenteSana_web\MenteSana_web
+build_property.MSBuildProjectDirectory = D:\users\User\Documents\Proyectos\MenteSana_web\MenteSana_web
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/users/User/Desktop/MenteSana_web/MenteSana_web/Pages/Error.cshtml]
+[D:/users/User/Documents/Proyectos/MenteSana_web/MenteSana_web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/users/User/Desktop/MenteSana_web/MenteSana_web/Pages/Index.cshtml]
+[D:/users/User/Documents/Proyectos/MenteSana_web/MenteSana_web/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/users/User/Desktop/MenteSana_web/MenteSana_web/Pages/Privacy.cshtml]
+[D:/users/User/Documents/Proyectos/MenteSana_web/MenteSana_web/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/users/User/Desktop/MenteSana_web/MenteSana_web/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/users/User/Documents/Proyectos/MenteSana_web/MenteSana_web/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/users/User/Desktop/MenteSana_web/MenteSana_web/Pages/_ViewImports.cshtml]
+[D:/users/User/Documents/Proyectos/MenteSana_web/MenteSana_web/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/users/User/Desktop/MenteSana_web/MenteSana_web/Pages/_ViewStart.cshtml]
+[D:/users/User/Documents/Proyectos/MenteSana_web/MenteSana_web/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/users/User/Desktop/MenteSana_web/MenteSana_web/Views/Acceso/Login.cshtml]
+[D:/users/User/Documents/Proyectos/MenteSana_web/MenteSana_web/Views/Acceso/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/users/User/Desktop/MenteSana_web/MenteSana_web/Views/Citas/AgendarCita.cshtml]
+[D:/users/User/Documents/Proyectos/MenteSana_web/MenteSana_web/Views/Bienestar/HomeBienestar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmllbmVzdGFyXEhvbWVCaWVuZXN0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/users/User/Documents/Proyectos/MenteSana_web/MenteSana_web/Views/Citas/AgendarCita.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcQWdlbmRhckNpdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/users/User/Desktop/MenteSana_web/MenteSana_web/Views/Estudiantes/Registro_emocion.cshtml]
+[D:/users/User/Documents/Proyectos/MenteSana_web/MenteSana_web/Views/Estudiantes/HomeEstudiantes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcSG9tZUVzdHVkaWFudGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/users/User/Documents/Proyectos/MenteSana_web/MenteSana_web/Views/Estudiantes/Registro_emocion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcUmVnaXN0cm9fZW1vY2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/users/User/Desktop/MenteSana_web/MenteSana_web/Pages/Shared/_Layout.cshtml]
+[D:/users/User/Documents/Proyectos/MenteSana_web/MenteSana_web/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ormez0e4e7

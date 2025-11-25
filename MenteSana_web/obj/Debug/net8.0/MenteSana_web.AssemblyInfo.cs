@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MenteSana_web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65af036fe9744baea63d23a36826e9791f684473")]
 [assembly: System.Reflection.AssemblyProductAttribute("MenteSana_web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MenteSana_web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

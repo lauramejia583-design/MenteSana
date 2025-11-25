@@ -1,0 +1,8 @@
+# Archivos y carpetas temporales de Visual Studio
+.vs/
+*.vsidx
+*.suo
+
+# Carpetas de compilación comunes
+bin/
+obj/

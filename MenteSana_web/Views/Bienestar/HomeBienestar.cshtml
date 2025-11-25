@@ -1,0 +1,89 @@
+﻿
+@{
+    ViewData["Title"] = "HomeBienestar";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mente Sana</title>
+
+    <link rel="icon" type="image/png" href="~/IMG/menteSana-logo2.png" />
+    <link rel="stylesheet" href="~/css/EstiloInicio.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light d-flex flex-column min-vh-100">
+
+    <!-- HEADER -->
+    <header class="py-3 border-bottom">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap">
+
+            <img src="~/IMG/menteSana-logo1.png" class="logo-header" alt="Mente Sana">
+
+            <h1 class="h5 fw-bold text-center flex-fill mb-0">MENTE SANA</h1>
+
+            <div class="d-flex align-items-center" style="gap: 80px;">
+                <img src="~/IMG/pascualBravo-logo.png" class="logo-header" alt="Pascual Bravo">
+
+                <div class="dropdown">
+                    <img src="~/IMG/11.png" class="profile-img dropdown-toggle" id="profileDropdown"
+                         data-bs-toggle="dropdown" aria-expanded="false" alt="Perfil">
+
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                        <li><a class="dropdown-item" href="/Estudiantes/Registros">Ver registros</a></li>
+                        <li><a class="dropdown-item" href="/Estudiantes/Perfil">Perfil</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <a class="dropdown-item" asp-controller="Acceso" asp-action="CerrarSesion">
+                                Cerrar sesión
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="bg-hero py-5">
+        <section class="container text-center text-md-start">
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+                    <h1 class="fw-bold mb-1">Bienvenido(a) a Mente Sana</h1>
+                    <h2 class="fw-regular mb-3">Equipo de Bienestar Universitario</h2>
+
+                    <p class="text-muted mb-4">
+                        Un espacio diseñado para ayudarte en el control de citas y un seguimiento al
+                        estado emocional de nuestros estudiantes.
+                    </p>
+
+                    <a asp-controller="Bienestar" asp-action="CitasAgendadas" class="btn btn-primary btn-lg">
+                        Ver agenda de citas
+                    </a>
+                </div>
+
+                <div class="col-md-6 text-center mt-4 mt-md-0">
+                    <img src="~/IMG/inicioBie.png" alt="Bienestar" class="img-fluid" style="max-height:260px;" />
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-4 bg-white border-top mt-auto text-center">
+        <p class="small text-muted mb-0">
+            © 2025 Mente Sana — Institución Universitaria Pascual Bravo
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+

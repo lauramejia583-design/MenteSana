@@ -1,5 +1,4 @@
-﻿using AspNetCoreGeneratedDocument;
-using MenteSana_web.Models;
+﻿using MenteSana_web.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewEngines;
@@ -17,7 +16,7 @@ namespace MenteSana_web.Controllers
 {
     public class EstudiantesController : Controller
     {
-        static string conexion = "Data Source=DESKTOP-FS43UDE;Initial Catalog=DBMenteSana2;Integrated Security=True;";
+        static string conexion = "Data Source=DESKTOP-RTLL7R5;Initial Catalog=DBMenteSana2; Integrated Security=True; TrustServerCertificate=True";
 
         public IActionResult Registro_emocion()
         {
@@ -26,37 +25,34 @@ namespace MenteSana_web.Controllers
         }
 
         [HttpPost]
-        public IActionResult GuardarEmocion([FromBody] Models.Estado_Emociomal modelo)
+        public IActionResult GuardarEmocion(EstadoEmociomal model)
         {
-            try
+            model.id_persona = Convert.ToInt32(HttpContext.Session.GetString("id_estudiante"));
+
+            using (SqlConnection cn = new SqlConnection(conexion))
             {
-                model.Id_Estudiante = Convert.ToInt32(HttpContext.Session.GetString("id_estudiante"));
+                SqlCommand cmd = new SqlCommand("sp_insertar_estado_emocional", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
 
-                if (id_Estudiante == null)
+                cmd.Parameters.AddWithValue("@id_persona", model.id_persona);
+                cmd.Parameters.AddWithValue("@nota", model.nota);
+                cmd.Parameters.AddWithValue("@id_tipo_estado", model.id_tipo_estado);
+                try
                 {
-                    return Json(new { success = false, message = "Sesión expirada." });
-                }
-
-                using (SqlConnection con = new SqlConnection(conexion))
-                {
-                    SqlCommand cmd = new SqlCommand("insertar_estado_emocional", con);
-                    cmd.CommandType = CommandType.StoredProcedure;
-
-                    cmd.Parameters.AddWithValue("@id_persona", model.Id_Estudiante);
-                    cmd.Parameters.AddWithValue("@nombre_estado", modelo.nombre_estado);
-                    cmd.Parameters.AddWithValue("@nota", (object)modelo.nota ?? DBNull.Value);
-
-                    con.Open();
+                    cn.Open();
                     cmd.ExecuteNonQuery();
                 }
+                catch (SqlException ex)
+                {
+                    Console.WriteLine("ERROR SQL: " + ex.Message);
 
-                return Json(new { success = true });
+                    // O mientras depuras, que reviente:
+                    throw;
+                }
             }
-            catch (Exception ex)
-            {
-                return Json(new { success = false, message = ex.Message });
-            }
+
+            return RedirectToAction("Registro_emocion");
+
         }
-
     }
 }

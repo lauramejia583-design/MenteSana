@@ -51,54 +51,54 @@
         </div>
     </header>
 
-
     <!-- FORMULARIO -->
     <div class="container" style="max-width: 600px; margin-top: 40px;">
         <h2 class="text-center mb-3">Registro de Emoción</h2>
-        
 
-        <div class="card shadow p-4">
+        <form asp-controller="Estudiantes" asp-action="GuardarEmocion" method="post">
+            <div class="card shadow p-4">
 
-            <div class="form-group mb-3">
-                <label>Selecciona cómo te sientes hoy:</label>
-                
+                <div class="form-group mb-3">
+                    <label>Selecciona cómo te sientes hoy:</label>
 
-                <!-- Campo oculto donde guardamos la emoción seleccionada -->
-                <input type="hidden" id="emocionSeleccionada" required>
 
-                <div class="emoji-grid mb-4 text-center">
-                    <button type="button" class="emoji-btn" data-value="Muy-Feliz" title="Muy-Feliz">
-                        <img src="@Url.Content("~/IMG/muyFeliz.png")" alt="Muy-Feliz" class="emoji-img">
-                    </button>
+                    <!-- Campo oculto donde guardamos la emoción seleccionada -->
+                    <input type="hidden" name="id_tipo_estado" id="emocionSeleccionada" required>
 
-                    <button type="button" class="emoji-btn" data-value="Feliz" title="Feliz">
-                        <img src="@Url.Content("~/IMG/Feliz.png")" alt="Feliz" class="emoji-img">
-                    </button>
+                    <div class="emoji-grid mb-4 text-center">
+                        <button type="button" class="emoji-btn" data-value="1" title="Muy-Feliz">
+                            <img src="@Url.Content("~/IMG/muyFeliz.png")" alt="Muy-Feliz" class="emoji-img">
+                        </button>
 
-                    <button type="button" class="emoji-btn" data-value="Tranquilo" title="Tranquilo">
-                        <img src="@Url.Content("~/IMG/maso.png")" alt="Tranquilo" class="emoji-img">
-                    </button>
+                        <button type="button" class="emoji-btn" data-value="2" title="Feliz">
+                            <img src="@Url.Content("~/IMG/Feliz.png")" alt="Feliz" class="emoji-img">
+                        </button>
 
-                    <button type="button" class="emoji-btn" data-value="Ansioso" title="Ansioso">
-                        <img src="@Url.Content("~/IMG/medioinfeliz.png")" alt="Ansioso" class="emoji-img">
-                    </button>
+                        <button type="button" class="emoji-btn" data-value="3" title="Tranquilo">
+                            <img src="@Url.Content("~/IMG/maso.png")" alt="Tranquilo" class="emoji-img">
+                        </button>
 
-                    <button type="button" class="emoji-btn" data-value="Triste" title="Triste">
-                        <img src="@Url.Content("~/IMG/nadafeliz.png")" alt="Triste" class="emoji-img">
-                    </button>
+                        <button type="button" class="emoji-btn" data-value="4" title="Ansioso">
+                            <img src="@Url.Content("~/IMG/medioinfeliz.png")" alt="Ansioso" class="emoji-img">
+                        </button>
+
+                        <button type="button" class="emoji-btn" data-value="5" title="Triste">
+                            <img src="@Url.Content("~/IMG/nadafeliz.png")" alt="Triste" class="emoji-img">
+                        </button>
+                    </div>
                 </div>
+
+                <div class="form-group mb-3">
+                    <label>Nota (opcional):</label>
+                    <textarea id="nota" name="nota" class="form-control" rows="4"></textarea>
+                </div>
+
+                <button id="btnGuardar" class="btn btn-primary w-100">Guardar Emoción</button>
+
+                <div id="respuesta" class="mt-3"></div>
+
             </div>
-
-            <div class="form-group mb-3">
-                <label>Nota (opcional):</label>
-                <textarea id="nota" class="form-control" rows="4"></textarea>
-            </div>
-
-            <button id="btnGuardar" class="btn btn-primary w-100">Guardar Emoción</button>
-
-            <div id="respuesta" class="mt-3"></div>
-
-        </div>
+        </form>
     </div>
 
     <footer class="text-center py-3 border-top mt-auto mb-3">
@@ -109,7 +109,7 @@
         const RUTA_GUARDAR = '@Url.Action("GuardarEmocion", "Estudiantes")';
     </script>
 
-   
+
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

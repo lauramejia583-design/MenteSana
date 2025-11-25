@@ -14,6 +14,6 @@
 
         public string ConfirmarClave { get; set; }
 
-
+        public int id_rol { get; set; }
     }
 }

@@ -14,7 +14,7 @@ namespace MenteSana_web.Controllers
 {
     public class AccesoController : Controller
     {
-        static string conexion = "Data Source=DESKTOP-FS43UDE;Initial Catalog=DBMenteSana2; Integrated Security=True; TrustServerCertificate=True";
+        static string conexion = "Data Source=DESKTOP-RTLL7R5;Initial Catalog=DBMenteSana2; Integrated Security=True; TrustServerCertificate=True";
         public IActionResult Index()
         {
             return View();
@@ -50,24 +50,49 @@ namespace MenteSana_web.Controllers
         [HttpPost]
         public IActionResult Login(Persona oUsuario)
         {
+            // 1. Encriptar la contraseña
             oUsuario.contrasena = ConvertirSha256(oUsuario.contrasena);
+
             using (SqlConnection cn = new SqlConnection(conexion))
+            using (SqlCommand cmd = new SqlCommand("validar_usuario_web", cn))
             {
-                SqlCommand cmd = new SqlCommand("validar_usuario_web", cn);
-                cmd.Parameters.AddWithValue("correo_institucional", oUsuario.correo_institucional);
-                cmd.Parameters.AddWithValue("contrasena", oUsuario.contrasena);
-                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@correo_institucional", oUsuario.correo_institucional);
+                cmd.Parameters.AddWithValue("@contrasena", oUsuario.contrasena);
+
                 cn.Open();
-                oUsuario.id_persona = Convert.ToInt32(cmd.ExecuteScalar());
 
-
+                using (SqlDataReader dr = cmd.ExecuteReader())
+                {
+                    if (dr.Read())
+                    {
+                        oUsuario.id_persona = dr.GetInt32(dr.GetOrdinal("id_persona"));
+                        oUsuario.id_rol = dr.GetInt32(dr.GetOrdinal("id_rol"));
+                    }
+                    else
+                    {
+                        oUsuario.id_persona = 0;
+                    }
+                }
             }
+
             if (oUsuario.id_persona != 0)
             {
                 HttpContext.Session.SetString("Persona", JsonSerializer.Serialize(oUsuario));
                 HttpContext.Session.SetString("id_estudiante", oUsuario.id_persona.ToString());
-                return RedirectToAction("AgendarCita", "Citas");
-                //return View();
+
+                if (oUsuario.id_rol == 1)
+                {
+                    return RedirectToAction("HomeEstudiantes", "Estudiantes");
+                }
+                else if (oUsuario.id_rol == 3)
+                {
+                    return RedirectToAction("HomeBienestar", "Bienestar");
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Home");
+                }
             }
             else
             {
@@ -75,6 +100,7 @@ namespace MenteSana_web.Controllers
                 return View();
             }
         }
+
 
 
         //cerrar sesion

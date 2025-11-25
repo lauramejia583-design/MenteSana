@@ -24,6 +24,13 @@ namespace MenteSana_web.Controllers
 
         }
 
+        public IActionResult HomeEstudiantes()
+        {
+            return View();
+        }
+
+        public IA
+
         [HttpPost]
         public IActionResult GuardarEmocion(EstadoEmociomal model)
         {

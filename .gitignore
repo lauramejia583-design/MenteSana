@@ -1,8 +1,28 @@
-# Archivos y carpetas temporales de Visual Studio
+# Visual Studio
 .vs/
-*.vsidx
+*.user
 *.suo
 
-# Carpetas de compilación comunes
+# Build results
 bin/
 obj/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# DLLs
+*.dll
+*.exe
+*.pdb
+
+# Cache
+*.cache
+*.log
+
+# Publish
+wwwroot/staticwebassets/

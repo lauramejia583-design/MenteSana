@@ -16,7 +16,8 @@ namespace MenteSana_web.Controllers
 {
     public class BienestarController : Controller
     {
-        static string conexion = "Data Source=DESKTOP-RTLL7R5;Initial Catalog=DBMenteSana2; Integrated Security=True; TrustServerCertificate=True";
+        static string conexion = "Data Source=DESKTOP-FS43UDE;Initial Catalog=DBMenteSana2; Integrated Security=True; TrustServerCertificate=True";
+
         public IActionResult Index()
         {
             return View();

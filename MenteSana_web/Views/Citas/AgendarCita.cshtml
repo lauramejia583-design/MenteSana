@@ -1,4 +1,6 @@
-﻿
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
 @{
     ViewData["Title"] = "AgendarCita";
 }
@@ -111,9 +113,9 @@
 
             </form>
         </section>
-
+        
         <div class="text-center mt-4">
-            <a asp-controller="Estudiantes" asp-action="Home" class="text-decoration-none small text-primary">← Volver al inicio</a>
+            <a asp-controller="Estudiantes" asp-action="HomeEstudiantes" class="text-decoration-none small text-primary">← Volver al inicio</a>
         </div>
 
     </main>

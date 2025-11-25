@@ -85,13 +85,13 @@ namespace MenteSana_web.Controllers
                 {
                     return RedirectToAction("HomeEstudiantes", "Estudiantes");
                 }
-                else if (oUsuario.id_rol == 3)
+                else if (oUsuario.id_rol == 2)
                 {
-                    return RedirectToAction("HomeBienestar", "Bienestar");
+                    return RedirectToAction("HomePsicologo", "Psicologo");
                 }
                 else
                 {
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("HomeBienestar", "Bienestar");
                 }
             }
             else

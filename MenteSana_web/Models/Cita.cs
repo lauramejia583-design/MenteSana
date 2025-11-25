@@ -13,6 +13,8 @@
         public TimeSpan Hora { get; set; }
         public string NombrePsicologo { get; set; }
         public string motivo { get; set; }
-
+        public string NombreEstudiante { get; set; }
+        public string ApellidoEstudiante { get; set; }
+        public string ApellidoPsicologo { get; set; }
     }
 }

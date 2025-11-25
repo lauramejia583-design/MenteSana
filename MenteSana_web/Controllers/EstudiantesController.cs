@@ -29,7 +29,7 @@ namespace MenteSana_web.Controllers
             return View();
         }
 
-        public IA
+        
 
         [HttpPost]
         public IActionResult GuardarEmocion(EstadoEmociomal model)

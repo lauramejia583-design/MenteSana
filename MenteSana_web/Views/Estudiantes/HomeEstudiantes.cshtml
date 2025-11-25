@@ -62,13 +62,13 @@
                         Registra cómo te sientes cada día y recibe recomendaciones personalizadas.
                     </p>
 
-                    <a asp-controller="Estudiantes" asp-action="RegistroEmocion" class="btn btn-primary btn-lg">
+                    <a href="@Url.Action("Registro_emocion", "Estudiantes")" class="btn btn-primary btn-lg">
                         Registrar estado emocional
                     </a>
                     <br><br>
 
-                    <a asp-controller="Estudiantes" asp-action="AgendarCita" class="btn btn-primary btn-lg">
-                        Contactar al área de bienestar
+                    <a href="@Url.Action("AgendarCita", "Citas")"  class="btn btn-primary btn-lg">
+                        Agendar cita
                     </a>
                     <br><br>
 

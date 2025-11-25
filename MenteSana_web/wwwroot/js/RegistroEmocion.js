@@ -31,7 +31,7 @@
     function mensaje(texto, tipo) {
         const cont = document.getElementById("respuesta");
         if (cont) {
-            cont.innerHTML = <div class="alert alert-${tipo}">${texto}</div>;
+            cont.innerHTML = `<div class="alert alert-${tipo}">${texto}</div>`;
         } else {
             alert(texto); // fallback
         }

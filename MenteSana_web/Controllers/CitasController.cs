@@ -42,7 +42,7 @@ namespace MenteSana_web.Controllers
                     psicologos.Add(new Persona
                     {
                         id_persona = Convert.ToInt32(dr["id_persona"]),
-                        nombre = dr["nombres"].ToString(),
+                        nombres = dr["nombres"].ToString(),
                         apellidos = dr["apellidos"].ToString()
                     });
                 }

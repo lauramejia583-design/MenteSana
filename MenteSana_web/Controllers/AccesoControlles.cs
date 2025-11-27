@@ -106,9 +106,19 @@ namespace MenteSana_web.Controllers
         //cerrar sesion
         public IActionResult CerrarSesion()
         {
-            HttpContext.Session.Clear(); // Elimina todos los valores de sesión
+            // VALIDACIÓN OPCIONAL: si no hay sesión, redirige igual
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString("id_persona")))
+            {
+                return RedirectToAction("Login", "Acceso");
+            }
+
+            // Elimina TODOS los valores de sesión
+            HttpContext.Session.Clear();
+
+            // Redirige al login
             return RedirectToAction("Login", "Acceso");
         }
+
 
 
     }

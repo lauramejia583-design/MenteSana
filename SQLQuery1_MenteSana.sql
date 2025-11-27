@@ -107,7 +107,6 @@ fecha DATETIME NOT NULL DEFAULT SYSDATETIME(),
 FOREIGN KEY (id_estado) REFERENCES Estado_Emocional(id_estado)
 )
 go
-
 -------- Procedimientos de almacenado ---------
 Create procedure insertar_Persona (
 @id_persona VARCHAR(20),
@@ -216,6 +215,7 @@ BEGIN
     VALUES (@id_estudiante, @id_psicologo, @fecha, @hora, @motivo)
 END
 go
+
 
 ------------ sp recomendacion ---------------------
 ALTER PROCEDURE sp_obtener_recomendaciones_por_estado
@@ -339,8 +339,7 @@ END
 
 select * from Estado_Emocional
 
-
-CREATE PROCEDURE dbo.sp_detalle_cita
+CREATE PROCEDURE sp_detalle_cita
     @id_cita INT
 AS
 BEGIN
